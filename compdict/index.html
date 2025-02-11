@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Terms Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Computer Terms Dictionary</h1>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search for a term...">
+            <ul id="hint-list" class="hidden"></ul>
+            <button id="search-button">Search</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2 id="term-title"></h2>
+            <p id="term-definition"></p>
+            <h3>Examples</h3>
+            <ul id="term-examples"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
